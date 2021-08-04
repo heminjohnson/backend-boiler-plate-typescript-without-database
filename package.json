@@ -1,0 +1,47 @@
+{
+  "name": "backend-boiler-plate-typescript-without-database",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./dist/index.js",
+    "build": "tsc",
+    "watch": "tsc --watch",
+    "dev": "nodemon ./dist/index.js",
+    "test": "jest --coverage -u --runInBand",
+    "prettify": "prettier --write \"**/*.ts\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/heminjohnson/backend-boiler-plate-typescript-without-database.git"
+  },
+  "author": "Hemin Johnson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/heminjohnson/backend-boiler-plate-typescript-without-database/issues"
+  },
+  "homepage": "https://github.com/heminjohnson/backend-boiler-plate-typescript-without-database#readme",
+  "dependencies": {
+    "axios": "0.21.0",
+    "cors": "2.8.5",
+    "dotenv": "8.2.0",
+    "express": "4.17.1",
+    "helmet": "4.2.0"
+  },
+  "devDependencies": {
+    "@types/cors": "2.8.8",
+    "@types/express": "4.17.9",
+    "@types/jest": "26.0.18",
+    "@types/supertest": "2.0.10",
+    "@typescript-eslint/eslint-plugin": "4.13.0",
+    "@typescript-eslint/parser": "4.13.0",
+    "eslint": "7.15.0",
+    "eslint-plugin-security": "^1.4.0",
+    "jest": "26.6.3",
+    "nodemon": "2.0.6",
+    "prettier": "2.2.1",
+    "supertest": "6.0.1",
+    "ts-jest": "26.4.4",
+    "typescript": "4.1.2"
+  }
+}
